@@ -48,7 +48,17 @@ Preview the production build:
 npm run preview
 ```
 
-## Project Structure
+## Deployment
+
+This project is configured for deployment on Vercel.
+
+### Deploy to Vercel
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically detect the configuration and deploy
+
+The `vercel.json` file ensures proper routing for the single-page application.
 
 ```
 src/
